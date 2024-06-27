@@ -1,0 +1,8 @@
+[29-May-2024 02:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/config/cache.php on line 21
+[29-May-2024 02:50:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/config/app.php on line 16

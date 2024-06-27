@@ -1,0 +1,31 @@
+.heading-section {padding: 10px 0;margin-bottom: 0;position: relative;}
+h4.heading-title {font-size: 14px;font-weight: bold;margin: 0;padding: 0;color: #6c7383;}
+.btn-option-info{margin-left: auto;}
+a.btn-gr {background: #92b116; padding: 8px 20px; display: inline-block; font-size: 12px; color: #fff; border-radius: 50px; text-transform: uppercase; font-weight: bold; }
+a.btn-ye {background: #f39323;padding: 10px 10px;display: inline-block;font-size: 10px;color: #fff;border-radius: 3px;text-transform: uppercase;font-weight: bold;line-height: normal;}
+.di-product-header {padding: 15px; position: relative; background: #f0f7d5; } 
+.di-product-header h2{font-size: 16px; font-weight: 600; color:#92b116; margin: 0; padding:0; }
+.di-product-body {padding: 15px; background: #fff; }
+.di-product-card{margin-bottom: 20px;}
+
+.di-single-item{padding: 15px; background: #fff; position: relative; width: 100%; }
+.di-single-images {width: 100%;height: 270px;display: block;background: #f8f4d9;overflow: hidden;}
+.di-single-images img {width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center;}
+.di-single-content h2 {color: #6C7383;font-weight: bold;line-height: 24px;font-size: 12px;padding: 0;margin: 0;}
+.di-single-content p{font-size: 11px;line-height: 24px;color: #6C7383;margin-bottom:10px;}
+
+
+.di-slider .owl-dots {position: relative;left: 0;right: 0;bottom: 0;}
+.di-slider .owl-dots, 
+.di-slider .owl-nav {text-align: center;-webkit-tap-highlight-color: transparent;}
+.di-slider .owl-dots .owl-dot {display: inline-block;zoom: 1;}
+.di-slider .owl-nav button span {outline: none; font-size: 35px; background: rgb(32 31 39 / 70%); color: #fff; width: 40px; height: 40px; border-radius: 50%; display: inline-block; line-height: 37px; }
+.di-slider .owl-dots .owl-dot.active span, 
+.di-slider .owl-dots .owl-dot:hover span {background: #f47b36;}
+.di-slider .owl-nav {width: 60px; text-align: center;   }
+.di-slider .owl-prev {left:5px; top:40%; position: absolute;     outline: none;}
+.di-slider .owl-next {right:5px; top:40%; position: absolute;     outline: none;}
+
+
+.di-single-slider {display: table-caption; width: 100%; }
+.di-single-audio audio {width: 100%; }

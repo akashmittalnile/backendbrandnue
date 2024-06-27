@@ -1,0 +1,37 @@
+[20-Jan-2023 06:50:38 UTC] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 6
+[20-Jan-2023 06:50:38 UTC] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 6
+[20-Jan-2023 06:50:38 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 6
+[06-Feb-2024 06:22:50 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[06-Feb-2024 06:22:50 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27
+[06-Feb-2024 06:22:50 UTC] PHP Notice:  Undefined index: to_mail in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 42
+[06-Feb-2024 06:22:50 UTC] PHP Notice:  Undefined index: to_mail in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 42
+[06-Feb-2024 06:44:27 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 6 Fe...', '<p></p><p>Dear ...')
+#1 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php(48): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php on line 1856
+[06-Feb-2024 06:44:33 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 6 Fe...', '<p></p><p>Dear ...')
+#1 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php(48): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/PHPMailer/src/PHPMailer.php on line 1856
+[06-Feb-2024 06:48:12 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[06-Feb-2024 06:48:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[06-Feb-2024 06:48:15 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[06-Feb-2024 06:48:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[06-Feb-2024 06:51:01 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[06-Feb-2024 06:51:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 9
+[07-May-2024 16:48:08 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[07-May-2024 16:48:08 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27
+[07-May-2024 16:48:10 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[07-May-2024 16:48:10 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27
+[07-May-2024 16:48:13 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[07-May-2024 16:48:13 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27
+[07-May-2024 16:48:18 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[07-May-2024 16:48:18 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27
+[07-May-2024 16:48:19 UTC] PHP Notice:  Undefined index: name in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 24
+[07-May-2024 16:48:19 UTC] PHP Notice:  Undefined index: otp in /home/pvc6zct3o2nf/public_html/admin.brandnueweightloss.com/demo/testmail.php on line 27

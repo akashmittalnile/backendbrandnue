@@ -1,0 +1,47 @@
+@media only screen and (min-width : 480px) {
+ 
+}
+@media only screen and (min-width : 768px) {
+}
+@media only screen and (min-width : 992px) {
+.sidebar-icon-only .header-logo{width: 70px; } 
+.sidebar-icon-only .header-logo .brand-logo-mini {display: inline-block; }
+.sidebar-icon-only .header-logo  .brand-logo {display: none; } 
+.sidebar-icon-only .sidebar{width: 70px; }
+.sidebar-icon-only .sidebar .nav {overflow: visible; margin-left: 0; margin-right: 0; } 
+.sidebar-icon-only .sidebar .nav .nav-item {position: relative; } 
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link {display: block; padding-left: .5rem; padding-right: .5rem; text-align: center; position: static; border-radius: 0; }
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-icon {margin-right: 0; margin-left: 0; margin-bottom: 0; }
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-title, 
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link .badge, 
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-sub-title {display: none; }
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; background: #92b116; padding: 0.5rem 1.4rem; left: 70px; position: absolute; text-align: left; top: 0; bottom: 0; width: 190px; z-index: 1; line-height: 1.8; -webkit-box-shadow: 4px 0px 7px 0px rgb(182 185 189 / 25%); box-shadow: 4px 0px 7px 0px rgb(182 185 189 / 25%); }
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse, 
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing {display: block; background: #fff; border-radius: 0 0 5px 0; position: absolute; left: 70px; width: 190px; -webkit-box-shadow: 4px 4px 7px 0px rgb(182 185 189 / 25%); box-shadow: 4px 4px 7px 0px rgb(182 185 189 / 25%); }
+.sidebar-icon-only .navbar .navbar-menu-wrapper {width: calc(100% - 70px); } 
+.sidebar-icon-only .main-panel {width: calc(100% - 70px); margin-left: 70px; }
+
+
+
+}
+@media only screen and (min-width : 1200px) {
+}
+@media only screen and (max-width : 1199px) {
+
+}
+@media only screen and (max-width : 991px) {
+.sidebar-offcanvas {position: fixed; max-height: calc(100vh - 60px); top: 60px; bottom: 0; overflow: auto; right: -235px; -webkit-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
+.sidebar-offcanvas.active {right: 0; }
+.navbar-nav .nav-toggler {display: none; } 
+.navbar-toggler-right {padding-left: 15px; padding-right:15px; } 
+.header .navbar .navbar-menu-wrapper{padding-right:1rem; padding-left:0rem; width: calc(100% - 156px);}
+} 
+@media only screen and (max-width : 767px) {
+
+
+}
+ 
+@media only screen and (max-width : 480px) {
+
+
+}

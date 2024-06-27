@@ -1,0 +1,23 @@
+
+.overview-section {margin-bottom: 1rem; }
+.overview-item{background: #fff; padding: 10px; position: relative; border-radius: 5px; display: flex; align-items: center;}
+.overview-section .row {margin-right: calc(var(--bs-gutter-x)/ -5); margin-left: calc(var(--bs-gutter-x)/ -5); }
+.overview-section .row>* {padding-right: calc(var(--bs-gutter-x)/ 5); padding-left: calc(var(--bs-gutter-x)/ 5); }
+
+.overview-item-content{-webkit-box-flex: 1; -webkit-flex: 1; -moz-box-flex: 1; -ms-flex: 1; flex: 1;}
+.overview-item-icon {height: 60px;width: 60px;min-width: 60px;margin-right: 10px;display: block;transition: all .5s;border-radius: 100%;line-height: 60px;text-align: center;background: #f5f5f5;}
+.overview-item-icon img{height: 35px;height: 35px;}
+.overview-item-content h2 {font-size: 14px;font-weight: bold;margin: 0;padding: 0;}
+.overview-item-content p {font-size: 11px;margin: 0;color: #6c7383;line-height: 24px;}
+
+
+
+
+.chart-header {display: flex; align-items: center; background: #fff; padding: 10px; }
+.chart-heading h2 {font-size: 13px;font-weight: bold;margin: 0;padding: 0;}
+
+.chart-filter {margin-left: auto; }
+.chart-filter label {margin-bottom: 0;font-size: 11px;font-weight: 600;padding: 3px 0;}
+.chart-filter input.form-control{padding:8px 10px; outline: none; border: 1px solid #e1e3e6; color: #6c7383; font-size: 12px; border-radius: 2px; height: auto; }
+.chart-body {padding: 20px; background: #fbfdfe; }
+.chat-media img {width: 100%; }

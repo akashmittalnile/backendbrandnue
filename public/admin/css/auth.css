@@ -1,0 +1,40 @@
+/*----------------------------
+         Add CSS file
+----------------------------*/
+@import "../../plugins/bootstrap/css/bootstrap.min.css";
+@import '../../plugins/fontawesome/css/font-awesome.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*----------------------------
+   element      
+----------------------------*/
+
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html { text-rendering: optimizeLegibility !important;-webkit-font-smoothing: antialiased !important;}
+*{margin:0; padding:0}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none !important;}
+header, nav, section, article, aside, footer { display:block;}
+html {font-size: 100%;}
+body {font-size: 12px;font-family: 'Montserrat', sans-serif;line-height: 26px;color: #777;-webkit-font-smoothing: antialiased;font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {padding: 5px 0 15px 0;color: #333;font-weight: normal;-webkit-font-smoothing: antialiased;}
+:-ms-input-placeholder{color: #000;}
+/*----------------------------
+   auth form      
+----------------------------*/
+
+.auth-section {background: #fafffc; width: 100%; display: flex; align-items: center; justify-content: center; height: 100vh; }
+.auth-btn:hover{box-shadow: none;}
+p.forgot-text {text-align: center; font-size: 14px; color: #003767; font-weight: bold; margin-bottom: 0; }
+
+.auth-form {padding: 3rem; background: #fff; position: relative; box-shadow: 0 0 40px rgb(146 177 22 / 14%); border-radius: 5px; }
+.auth-form .brand-logo {margin-bottom: 2rem; text-align: center; } 
+.auth-form .brand-logo img {width: 150px; } 
+.auth-form .form-group {margin-bottom: 1.5rem; } 
+.auth-form input.form-control {background: transparent; border-radius: 0; font-size: .9375rem; border: 1px solid #CED4DA; font-weight: 400; height: 3.175rem; padding: 0.94rem 1.94rem; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; outline: 0; width: 100%; display: inline-block;}
+button.auth-form-btn {display: inline-block; width: 100%; padding: 0.94rem 1.94rem; background: #92b116; color: #fff; border: none; outline: none; font-size: 14px; border-radius: 5px; font-weight: bold; }
+
+.auth-form h2{font-size: 20px;font-weight: 600;padding: 0;color: #6c7383;text-align: center;}
+.auth-form p {font-size: 16px;margin: 0;color: #6c7383;line-height: 24px;font-weight: 300;text-align: center;}
+a.auth-link{font-size: 0.875rem; margin: 0; color: #6c7383; font-weight: normal; }
